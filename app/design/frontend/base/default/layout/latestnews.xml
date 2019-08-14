@@ -4,30 +4,30 @@
 		<reference name="head">
 			<action method="addItem" ifconfig="latestnews/config/enablelatestnews">
 	            <type>skin_css</type>
-	            <name>css/jquery.pnotify.default.css</name>
+	            <name>css/latestnews/jquery.pnotify.default.css</name>
 	        </action>
 	        <action method="addItem" ifconfig="latestnews/config/enablelatestnews">
 	            <type>skin_css</type>
-	            <name>css/bootstrap.css</name>
+	            <name>css/latestnews/bootstrap.css</name>
 	        </action>
 			<action method="addItem" ifconfig="latestnews/config/includejs">
 	            <type>skin_js</type>
-	            <name>js/jquery.js</name>
+	            <name>js/latestnews/jquery.js</name>
 	            <params/>
 	        </action>
 	        <action method="addItem" ifconfig="latestnews/config/enablelatestnews">
 	            <type>skin_js</type>
-	            <name>js/bootstrap.min.js</name>
+	            <name>js/latestnews/bootstrap.min.js</name>
 	            <params/>
 	        </action>
 			<action method="addItem" ifconfig="latestnews/config/enablelatestnews">
 	            <type>skin_js</type>
-	            <name>js/jquery.pnotify.js</name>
+	            <name>js/latestnews/jquery.pnotify.js</name>
 	            <params/>
 	        </action>
 	        <action method="addItem" ifconfig="latestnews/config/enablelatestnews">
 	            <type>skin_js</type>
-	            <name>js/customlivenotifier.js</name>
+	            <name>js/latestnews/customlivenotifier.js</name>
 	            <params/>
 	        </action>
 		</reference>
