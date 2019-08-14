@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<package>
+    <name>latest_news_notifier</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">Open Software License (OSL) </license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Latest News Notifier is an awesome Module which allows you to display your latest news title with a smooth fading effect. Latest News Notifier provides a simple way to present news on your website, one at a time, through Jquery effect.</summary>
+    <description>&lt;p&gt;It is a highly advance module which works very simple .&lt;/p&gt;&#xD;
+&lt;p&gt;Allows the store owner to add latest news like ongoing offers in backend the same would be displayed in frontend with a smooth fading effect .&lt;/p&gt;&#xD;
+&lt;p&gt;One can also use it to show discount coupons or offers which attracts customer and thereby can increase sales.&lt;/p&gt;&#xD;
+&#xD;
+&lt;h2&gt;Features : &lt;/h2&gt;&#xD;
+&lt;ul&gt;&#xD;
+&lt;li&gt;Pleasant smooth display .&lt;/li&gt;&#xD;
+&#xD;
+&lt;li&gt;Light , as it adds less load on server .&lt;/li&gt;&#xD;
+&#xD;
+&lt;li&gt;Have history button on top right to load closed notification to review it .&lt;/li&gt;&#xD;
+&#xD;
+&lt;li&gt;Compatible with all browsers .&lt;/li&gt;&#xD;
+&lt;li&gt;Allows to add custom html code as wanted .&lt;/li&gt;&#xD;
+&lt;li&gt;&#xD;
+	&lt;ul&gt;&#xD;
+		&lt;li&gt;&lt;h5&gt;Have two types :&lt;/h5&gt;&lt;/li&gt;&#xD;
+		&lt;li&gt;1. Small : Displays in right bottom .&lt;/li&gt;&#xD;
+		&lt;li&gt;2. Big : Displays in bottom .&lt;/li&gt;&#xD;
+	&lt;/ul&gt;&#xD;
+&lt;/li&gt;&#xD;
+&lt;li&gt;Randomly selects news , so that the same news is not displayed everytime .&lt;/li&gt;&#xD;
+&lt;li&gt;Has Export / Import functionality&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+&#xD;
+&#xD;
+&lt;h2&gt;Steps for Installing :&lt;/h2&gt;&#xD;
+&lt;ul&gt;&#xD;
+&lt;li&gt;1. Check cache is disabled. [System-&amp;gt;Cache Management]&lt;/li&gt;&#xD;
+&lt;li&gt;2. Install extension through connect Manager. [System -&amp;gt; Magento Connect -&amp;gt; Magento Connect Manager]&lt;/li&gt;&#xD;
+&lt;li&gt;3. Logout from admin&lt;/li&gt;&#xD;
+&lt;li&gt;4. After login again , Go to System-&gt;Configuration-&gt;LATEST NEWS NOTIFIER(Left side)-&gt;Settings&lt;/li&gt;&#xD;
+&lt;li&gt;5. Enable Latest News Notifier : Yes to enable module&lt;/li&gt;&#xD;
+&lt;li&gt;6. Include jquery : Yes to enable jQuery (Enable it only if you have not included jquery)&lt;/li&gt;&#xD;
+&lt;li&gt;7. You may see a new submenu by name &lt;strong&gt;Latestnews&lt;/strong&gt; under &lt;strong&gt;CMS&lt;/strong&gt; menu.&lt;/li&gt;&#xD;
+&lt;li&gt;8. Click on it and go to 'Add Item'.&lt;/li&gt;&#xD;
+&lt;li&gt;9. Fill in those details .&lt;/li&gt;&#xD;
+&lt;li&gt;10. Enabled / Disabled Field : If Enabled then only you would see the news notification in frontend.&lt;/li&gt;&#xD;
+&lt;/ul&gt;</description>
+    <notes>Added Enabling / Disabling module functionality</notes>
+    <authors><author><name>Nikhil K ravindran</name><user>nikhilkr</user><email>nikrmc@gmail.com</email></author></authors>
+    <date>2014-06-13</date>
+    <time>03:56:19</time>
+    <contents><target name="magelocal"><dir name="Neo"><dir name="Latestnews"><dir name="Block"><dir name="Adminhtml"><dir name="Latestnews"><dir name="Edit"><file name="Form.php" hash="d82948e459f6a0ee962aadc5f2a12b90"/><dir name="Tab"><file name="Form.php" hash="b4a2408764a0b81a5d462a0f5103ae51"/></dir><file name="Tabs.php" hash="b90976f5f64ceb08c3cfd407c932e2fa"/></dir><file name="Edit.php" hash="7d58ad417d227db08203f988bedf31c5"/><file name="Grid.php" hash="4019866082fed14406bcce24acc6cfbc"/><dir name="Renderer"><file name="Content.php" hash="2500009ddfee9a0f883d63ac932b7ef2"/></dir></dir><file name="Latestnews.php" hash="f9787a2ec2fdef4951d9df2edf6d651a"/></dir><file name="Latestnews.php" hash="c92f0a2799540810dafc30d7391bd814"/></dir><dir name="Helper"><file name="Data.php" hash="aef11b02c081d3939c06e5ffc71d0cc5"/></dir><dir name="Model"><file name="Latestnews.php" hash="6571b9a0d97f7a16fd78604dc6c5cb3a"/><dir name="Mysql4"><dir name="Latestnews"><file name="Collection.php" hash="56ea117fefa3b9480543a3f224796d9e"/></dir><file name="Latestnews.php" hash="c9ef75c5c2d70e4882fe3fa406546da9"/></dir><file name="Status.php" hash="a3e663455cf4476407fdd84a68cc835f"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="LatestnewsController.php" hash="fd63206be52d230a317dd03244fa4332"/></dir><file name="IndexController.php" hash="bf7c477fbbb99c078cf3cfcd25700456"/></dir><dir name="etc"><file name="adminhtml.xml" hash="527fc55d41802ef618356bfffd3b58e2"/><file name="config.xml" hash="a86fd043b7e95f36eba0dff66188baf8"/><file name="system.xml" hash="73e4b84537e118da4c8d63ffe9f7e4bc"/></dir><dir name="sql"><dir name="latestnews_setup"><file name="mysql4-install-0.1.0.php" hash="7c95c3746d5276f00cb1b78fe0d98b03"/><file name="mysql4-upgrade-0.1.0-0.1.1.php" hash="f16f3df9ac6d7dfab57a9dac0eee1591"/></dir></dir></dir></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="latestnews.xml" hash="4b8d0fe35cf68edc187c89033de188b8"/></dir></dir></dir></dir><dir name="frontend"><dir name="default"><dir name="default"><dir name="layout"><file name="latestnews.xml" hash="7220524aeabe6526b9d51c6fcfd62b21"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Neo_Latestnews.xml" hash="9b7aa41831b860b4f29b4391007c90ad"/></dir></target><target name="mageskin"><dir name="frontend"><dir name="default"><dir name="default"><dir name="css"><file name="bootstrap.css" hash="6bf7255f1a91462fb77322c325836803"/><file name="jquery.pnotify.default.css" hash="75dce95f0737e680355fd03282e49f72"/></dir><dir name="images"><file name="glyphicons-halflings.png" hash="74b801ed8644409a1d166bbf33ac3d95"/><file name="glyphicons-halflings-white.png" hash="9bbc6e9602998a385c2ea13df56470fd"/></dir><dir name="js"><file name="bootstrap.min.js" hash="aabe25ca085001cce9fbaf5ab575807d"/><file name="customlivenotifier.js" hash="f6bead997035df489b8fdeb7636f44e3"/><file name="jquery.js" hash="4c8cfcfcda2e9d34ba0097086a7bc328"/><file name="jquery.pnotify.js" hash="4d7bead89d98df2c05fb11c7a81ac8fb"/></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

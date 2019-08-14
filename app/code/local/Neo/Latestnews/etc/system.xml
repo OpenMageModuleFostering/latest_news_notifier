@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<config>
+    <tabs>
+        <latestnews>
+            <label>Latest News Notifier</label>
+            <sort_order>100</sort_order>
+        </latestnews>
+    </tabs>
+    <sections>
+        <latestnews>
+            <label>Settings</label>
+            <tab>latestnews</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>110</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+            	<config>
+	                <label>General</label>
+	                <frontend_type>text</frontend_type>
+	                <sort_order>10</sort_order>
+	                <show_in_default>1</show_in_default>
+	                <show_in_website>1</show_in_website>
+	                <show_in_store>1</show_in_store>
+	                <fields>
+	                	<enablelatestnews>
+	                		<label>Enable Latest News Notifier</label>
+	                        <frontend_type>select</frontend_type>
+	                        <source_model>adminhtml/system_config_source_yesno</source_model>
+	                        <sort_order>50</sort_order>
+	                        <show_in_default>1</show_in_default>
+	                        <show_in_website>1</show_in_website>
+	                        <show_in_store>1</show_in_store>
+	                	</enablelatestnews>
+	                    <includejs>
+	                        <label>Include jquery</label>
+	                        <frontend_type>select</frontend_type>
+	                        <source_model>adminhtml/system_config_source_yesno</source_model>
+	                        <sort_order>50</sort_order>
+	                        <show_in_default>1</show_in_default>
+	                        <show_in_website>1</show_in_website>
+	                        <show_in_store>1</show_in_store>
+	                    </includejs>
+	                </fields>
+                </config>
+                <author_information>
+                    <label>Author copyright &amp;copy;</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>60</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <comment>Latest News Notifier Extension  &amp;reg;  is developed by &lt;strong&gt;&lt;em&gt; Nikhil K Ravindran &lt;/em&gt;&lt;/strong&gt;</comment>
+                </author_information>
+            </groups>
+        </latestnews>
+    </sections>
+</config>

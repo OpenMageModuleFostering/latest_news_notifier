@@ -1,0 +1,19 @@
+<config>
+    <menu>
+		<cms>
+			<children>
+					<latestnews module="latestnews">
+						<!--title>Banner</title>
+						<sort_order>71</sort_order>               
+						<children>
+							<items module="banner"-->
+								<title>Latest News</title>
+								<sort_order>61</sort_order>
+								<action>latestnews/adminhtml_latestnews</action>
+							<!--/items>
+						</children-->
+					</latestnews>
+			</children>
+		</cms>
+	</menu>
+</config>		

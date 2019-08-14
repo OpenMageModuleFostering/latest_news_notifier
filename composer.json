@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/latest_news_notifier",
+    "type": "magento-module",
+    "license": "Open-Software-License-(OSL)-",
+    "homepage": "",
+    "description": "Latest News Notifier is an awesome Module which allows you to display your latest news title with a smooth fading effect. Latest News Notifier provides a simple way to present news on your website, one at a time, through Jquery effect.",
+    "authors": [
+    {
+        "name": "Nikhil K ravindran",
+        "email": "nikrmc@gmail.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
