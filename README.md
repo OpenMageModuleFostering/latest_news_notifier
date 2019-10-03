@@ -1,3 +1,5 @@
+
+
 ## Original Package Description
 
 Latest News Notifier is an awesome Module which allows you to display your latest news title with a smooth fading effect. Latest News Notifier provides a simple way to present news on your website, one at a time, through Jquery effect.
